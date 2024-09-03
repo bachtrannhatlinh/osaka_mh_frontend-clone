@@ -1,0 +1,22 @@
+{
+  "cancel": "cancel",
+  "pleaseComeBack": "You have just made a transaction. Please come back in a few minutes",
+  "successWithdrawHorse": "Successfully withdraw the horse to the wallet",
+  "failedTransaction": "Sorry! Your transaction has failed. Please go back and try again.",
+  "cancelLendingConfirm": "Do you want to cancel lending this horse?",
+  "successRentalHorse": "You have set up lending successfully",
+  "enterHorseRentalTime": "Please enter horse rental time",
+  "enterFrom1to364": "Please enter the date from 1 to 364",
+  "enterDatesCannotBeSame": "Please enter dates that cannot be the same",
+  "enterPriceThan0": "Please enter a price greater than 0",
+  "lendThisHorseConfirm": "Do you want to lend this horse?",
+  "horseJoinRaceConfirm": "You have successfully rented a horse",
+  "successRentedHorse": "This horse is joining in the race. Do you want to continue?",
+  "successCancelLending": "Successful cancel lending a horse",
+  "reallyRentHorseConfirm": "Do you really want to rent horse?",
+  "totalRentalDays": "Total rental days",
+  "totalRentalPrice": "Total rental price",
+  "withdrawHorseWalletConfirm": "Would you like to withdraw horse to your wallet?",
+  "serviceMetahorse": "METAHORSE TERMS OF FARM SERVICE",
+  "sendHorseToFarmConfirm": "Do you want submit(send) horse to farm?"
+}

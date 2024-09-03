@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'BlenderPro-Bold';
+  src: url('assets/fonts/BlenderPro-Bold.ttf') format('truetype'),
+    url('assets/fonts/BlenderPro-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'BlenderPro-Book';
+  src: url('assets/fonts/BlenderPro-Book.ttf') format('truetype'),
+    url('assets/fonts/BlenderPro-Book.woff2') format('woff2');
+}

@@ -1,0 +1,42 @@
+{
+  "network": "spectre_testnet",
+  "contract": {
+    "0": "0x263b279f5c6A4553d543600D228DD814146e9E74",
+    "name": "HorseFarm",
+    "address": "0x77191B3B0492964F835972c7b9e9c9E11d90ABdc",
+    "abi": [
+      "constructor(address token)",
+      "event Lease(address indexed owner, address indexed signer, uint256 indexed horseId, string nonce)",
+      "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
+      "event Paused(address account)",
+      "event Unpaused(address account)",
+      "event Withdraw(address indexed owner, address indexed signer, uint256 indexed horseId, string nonce)",
+      "function addOperator(address operator)",
+      "function horseNFT() view returns (address)",
+      "function lease(tuple(address owner, uint256 horseId, uint256 blockExpired, string nonce, uint8 v, bytes32 r, bytes32 s) data)",
+      "function leaseCompleted(bytes32) view returns (bool)",
+      "function leaseCountOf(address) view returns (uint256)",
+      "function leaseData(string) view returns (address owner, uint256 horseId, uint256 blockExpired)",
+      "function leaseNoneOf(address, uint256) view returns (string)",
+      "function onERC721Received(address, address, uint256, bytes) returns (bytes4)",
+      "function operators(address) view returns (bool)",
+      "function owner() view returns (address)",
+      "function ownerOf(uint256) view returns (address)",
+      "function pause()",
+      "function paused() view returns (bool)",
+      "function removeOperator(address operator)",
+      "function renounceOwnership()",
+      "function setTransporter(address _transporter)",
+      "function transferOwnership(address newOwner)",
+      "function transporter() view returns (address)",
+      "function unpause()",
+      "function withdraw(tuple(address owner, uint256 horseId, uint256 blockExpired, string nonce, uint8 v, bytes32 r, bytes32 s) data)",
+      "function withdrawCompleted(bytes32) view returns (bool)",
+      "function withdrawCountOf(address) view returns (uint256)",
+      "function withdrawData(string) view returns (address owner, uint256 horseId, uint256 blockExpired)",
+      "function withdrawNFT(address token, uint256 tokenId)",
+      "function withdrawNoneOf(address, uint256) view returns (string)",
+      "function withdrawToken(address token)"
+    ]
+  }
+}

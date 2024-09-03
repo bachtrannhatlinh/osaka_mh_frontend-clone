@@ -1,0 +1,23 @@
+{
+  "network": "spectre_testnet",
+  "contract": {
+    "name": "Transporter",
+    "address": "0xeDD07cf56ec3Cf8BE8D52fc6f2887fbBc713F0F3",
+    "abi": [
+      "constructor()",
+      "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
+      "function addOperator(address operator)",
+      "function operators(address) view returns (bool)",
+      "function owner() view returns (address)",
+      "function removeOperator(address operator)",
+      "function renounceOwnership()",
+      "function safeBurnBatchNFT1155From(address token_, address from_, uint256[] tokenId_, uint256[] amount_)",
+      "function safeBurnNFT1155From(address token_, address from_, uint256 tokenId_, uint256 amount_)",
+      "function safeBurnNFT721From(address token_, uint256 tokenId_)",
+      "function safeTransferNFT1155From(address token_, address from_, address to_, uint256 tokenId_, uint256 amount_)",
+      "function safeTransferNFT721From(address token_, address from_, address to_, uint256 tokenId_)",
+      "function safeTransferTokenFrom(address token_, address from_, address to_, uint256 amount_)",
+      "function transferOwnership(address newOwner)"
+    ]
+  }
+}
